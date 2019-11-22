@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CCCC980C1F7BFC7EDA8164D /* Pods_SwitchCraft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */; };
 		A5478539238869C500FB3306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478538238869C500FB3306 /* AppDelegate.swift */; };
 		A547853B238869C500FB3306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547853A238869C500FB3306 /* SceneDelegate.swift */; };
 		A547853D238869C500FB3306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547853C238869C500FB3306 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		A5478545238869CA00FB3306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5478544238869CA00FB3306 /* Assets.xcassets */; };
 		A5478548238869CA00FB3306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5478546238869CA00FB3306 /* LaunchScreen.storyboard */; };
 		A5478553238869CB00FB3306 /* SwitchCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478552238869CB00FB3306 /* SwitchCraftTests.swift */; };
+		A547855E23886C4F00FB3306 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A547855D23886C4F00FB3306 /* GoogleService-Info.plist */; };
+		EA709B416A9BF064B3A502CF /* Pods_SwitchCraftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC107D4FE259D3598ABECCAD /* Pods_SwitchCraftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33560A5C2ED41B6025F6C86B /* Pods-SwitchCraft.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraft.release.xcconfig"; path = "Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft.release.xcconfig"; sourceTree = "<group>"; };
+		562B7C1A1D7E98E5958E593A /* Pods-SwitchCraftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraftTests.release.xcconfig"; path = "Target Support Files/Pods-SwitchCraftTests/Pods-SwitchCraftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5478535238869C500FB3306 /* SwitchCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5478538238869C500FB3306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A547853A238869C500FB3306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +45,11 @@
 		A547854E238869CB00FB3306 /* SwitchCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5478552238869CB00FB3306 /* SwitchCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCraftTests.swift; sourceTree = "<group>"; };
 		A5478554238869CB00FB3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A547855D23886C4F00FB3306 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchCraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraftTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraftTests/Pods-SwitchCraftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CABA59F42ABF6977639A6C2F /* Pods-SwitchCraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraft.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft.debug.xcconfig"; sourceTree = "<group>"; };
+		FC107D4FE259D3598ABECCAD /* Pods_SwitchCraftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchCraftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCCC980C1F7BFC7EDA8164D /* Pods_SwitchCraft.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +65,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA709B416A9BF064B3A502CF /* Pods_SwitchCraftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860BE20A7B31B3D5CA996D11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CABA59F42ABF6977639A6C2F /* Pods-SwitchCraft.debug.xcconfig */,
+				33560A5C2ED41B6025F6C86B /* Pods-SwitchCraft.release.xcconfig */,
+				CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */,
+				562B7C1A1D7E98E5958E593A /* Pods-SwitchCraftTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A547852C238869C500FB3306 = {
 			isa = PBXGroup;
 			children = (
 				A5478537238869C500FB3306 /* SwitchCraft */,
 				A5478551238869CB00FB3306 /* SwitchCraftTests */,
 				A5478536238869C500FB3306 /* Products */,
+				860BE20A7B31B3D5CA996D11 /* Pods */,
+				DF5F408657D055B3F578FA02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +114,7 @@
 				A5478544238869CA00FB3306 /* Assets.xcassets */,
 				A5478546238869CA00FB3306 /* LaunchScreen.storyboard */,
 				A5478549238869CB00FB3306 /* Info.plist */,
+				A547855D23886C4F00FB3306 /* GoogleService-Info.plist */,
 				A5478541238869C500FB3306 /* SwitchCraft.xcdatamodeld */,
 			);
 			path = SwitchCraft;
@@ -102,6 +129,15 @@
 			path = SwitchCraftTests;
 			sourceTree = "<group>";
 		};
+		DF5F408657D055B3F578FA02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */,
+				FC107D4FE259D3598ABECCAD /* Pods_SwitchCraftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5478557238869CB00FB3306 /* Build configuration list for PBXNativeTarget "SwitchCraft" */;
 			buildPhases = (
+				07DF6845E23452775FC6D62A /* [CP] Check Pods Manifest.lock */,
 				A5478531238869C500FB3306 /* Sources */,
 				A5478532238869C500FB3306 /* Frameworks */,
 				A5478533238869C500FB3306 /* Resources */,
+				B976C3C0E24F79E56E5EC571 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A547855A238869CB00FB3306 /* Build configuration list for PBXNativeTarget "SwitchCraftTests" */;
 			buildPhases = (
+				193E3288FDB2149FBE2780BC /* [CP] Check Pods Manifest.lock */,
 				A547854A238869CB00FB3306 /* Sources */,
 				A547854B238869CB00FB3306 /* Frameworks */,
 				A547854C238869CB00FB3306 /* Resources */,
@@ -184,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5478548238869CA00FB3306 /* LaunchScreen.storyboard in Resources */,
+				A547855E23886C4F00FB3306 /* GoogleService-Info.plist in Resources */,
 				A5478545238869CA00FB3306 /* Assets.xcassets in Resources */,
 				A5478540238869C500FB3306 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +237,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07DF6845E23452775FC6D62A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitchCraft-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		193E3288FDB2149FBE2780BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwitchCraftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B976C3C0E24F79E56E5EC571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5478531238869C500FB3306 /* Sources */ = {
@@ -364,6 +468,7 @@
 		};
 		A5478558238869CB00FB3306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CABA59F42ABF6977639A6C2F /* Pods-SwitchCraft.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +486,7 @@
 		};
 		A5478559238869CB00FB3306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33560A5C2ED41B6025F6C86B /* Pods-SwitchCraft.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +504,7 @@
 		};
 		A547855B238869CB00FB3306 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -419,6 +526,7 @@
 		};
 		A547855C238869CB00FB3306 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562B7C1A1D7E98E5958E593A /* Pods-SwitchCraftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
