@@ -102,6 +102,9 @@
 		A5478537238869C500FB3306 /* SwitchCraft */ = {
 			isa = PBXGroup;
 			children = (
+				A59114732395F9FA007ED13F /* Controllers */,
+				A59114722395F9D6007ED13F /* Models */,
+				A59114712395F9A6007ED13F /* Utilities */,
 				A59114702395F87A007ED13F /* SupportingFiles */,
 				A5478544238869CA00FB3306 /* Assets.xcassets */,
 				A591146E2395F622007ED13F /* GoogleService-Info.plist */,
@@ -128,6 +131,27 @@
 				A5478546238869CA00FB3306 /* LaunchScreen.storyboard */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A59114712395F9A6007ED13F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A59114722395F9D6007ED13F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A59114732395F9FA007ED13F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		DF5F408657D055B3F578FA02 /* Frameworks */ = {
