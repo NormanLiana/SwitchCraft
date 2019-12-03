@@ -152,6 +152,9 @@
 		A59114732395F9FA007ED13F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A59114762395FC23007ED13F /* Authentication */,
+				A59114782395FC7F007ED13F /* Users */,
+				A59114772395FC57007ED13F /* Posts */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +171,27 @@
 			children = (
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		A59114762395FC23007ED13F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A59114772395FC57007ED13F /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		A59114782395FC7F007ED13F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 		DF5F408657D055B3F578FA02 /* Frameworks */ = {
