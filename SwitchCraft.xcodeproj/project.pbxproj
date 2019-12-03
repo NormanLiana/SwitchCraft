@@ -158,6 +158,7 @@
 		A59114732395F9FA007ED13F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A591147F239605B6007ED13F /* Tab+Navigation */,
 				A59114762395FC23007ED13F /* Authentication */,
 				A59114782395FC7F007ED13F /* Users */,
 				A59114772395FC57007ED13F /* Posts */,
@@ -201,6 +202,13 @@
 				A59114792396007C007ED13F /* ProfileVC.swift */,
 			);
 			path = Users;
+			sourceTree = "<group>";
+		};
+		A591147F239605B6007ED13F /* Tab+Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tab+Navigation";
 			sourceTree = "<group>";
 		};
 		DF5F408657D055B3F578FA02 /* Frameworks */ = {
