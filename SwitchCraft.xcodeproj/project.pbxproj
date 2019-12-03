@@ -16,6 +16,8 @@
 		A5478553238869CB00FB3306 /* SwitchCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478552238869CB00FB3306 /* SwitchCraftTests.swift */; };
 		A591146F2395F622007ED13F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A591146E2395F622007ED13F /* GoogleService-Info.plist */; };
 		A591147A2396007C007ED13F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59114792396007C007ED13F /* ProfileVC.swift */; };
+		A591147C23960513007ED13F /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591147B23960513007ED13F /* LogInVC.swift */; };
+		A591147E2396053E007ED13F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591147D2396053E007ED13F /* SignUpVC.swift */; };
 		EA709B416A9BF064B3A502CF /* Pods_SwitchCraftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC107D4FE259D3598ABECCAD /* Pods_SwitchCraftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		A5478554238869CB00FB3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A591146E2395F622007ED13F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A59114792396007C007ED13F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		A591147B23960513007ED13F /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		A591147D2396053E007ED13F /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchCraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraftTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraftTests/Pods-SwitchCraftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CABA59F42ABF6977639A6C2F /* Pods-SwitchCraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraft.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 		A59114762395FC23007ED13F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				A591147B23960513007ED13F /* LogInVC.swift */,
+				A591147D2396053E007ED13F /* SignUpVC.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -377,6 +383,8 @@
 				A591147A2396007C007ED13F /* ProfileVC.swift in Sources */,
 				A5478539238869C500FB3306 /* AppDelegate.swift in Sources */,
 				A5478543238869C500FB3306 /* SwitchCraft.xcdatamodeld in Sources */,
+				A591147C23960513007ED13F /* LogInVC.swift in Sources */,
+				A591147E2396053E007ED13F /* SignUpVC.swift in Sources */,
 				A547853B238869C500FB3306 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
