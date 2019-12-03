@@ -136,6 +136,8 @@
 		A59114712395F9A6007ED13F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A59114752395FA7F007ED13F /* Firebase */,
+				A59114742395FA62007ED13F /* Extensions */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -152,6 +154,20 @@
 			children = (
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A59114742395FA62007ED13F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A59114752395FA7F007ED13F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 		DF5F408657D055B3F578FA02 /* Frameworks */ = {
