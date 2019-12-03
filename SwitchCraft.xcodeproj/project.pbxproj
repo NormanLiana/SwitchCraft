@@ -10,7 +10,6 @@
 		0CCCC980C1F7BFC7EDA8164D /* Pods_SwitchCraft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */; };
 		A5478539238869C500FB3306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478538238869C500FB3306 /* AppDelegate.swift */; };
 		A547853B238869C500FB3306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547853A238869C500FB3306 /* SceneDelegate.swift */; };
-		A547853D238869C500FB3306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547853C238869C500FB3306 /* ViewController.swift */; };
 		A5478543238869C500FB3306 /* SwitchCraft.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A5478541238869C500FB3306 /* SwitchCraft.xcdatamodeld */; };
 		A5478545238869CA00FB3306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5478544238869CA00FB3306 /* Assets.xcassets */; };
 		A5478548238869CA00FB3306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5478546238869CA00FB3306 /* LaunchScreen.storyboard */; };
@@ -35,7 +34,6 @@
 		A5478535238869C500FB3306 /* SwitchCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5478538238869C500FB3306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A547853A238869C500FB3306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A547853C238869C500FB3306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A5478542238869C500FB3306 /* SwitchCraft.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwitchCraft.xcdatamodel; sourceTree = "<group>"; };
 		A5478544238869CA00FB3306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5478547238869CA00FB3306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,7 +104,6 @@
 			children = (
 				A5478538238869C500FB3306 /* AppDelegate.swift */,
 				A547853A238869C500FB3306 /* SceneDelegate.swift */,
-				A547853C238869C500FB3306 /* ViewController.swift */,
 				A5478544238869CA00FB3306 /* Assets.xcassets */,
 				A5478546238869CA00FB3306 /* LaunchScreen.storyboard */,
 				A591146E2395F622007ED13F /* GoogleService-Info.plist */,
@@ -302,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A547853D238869C500FB3306 /* ViewController.swift in Sources */,
 				A5478539238869C500FB3306 /* AppDelegate.swift in Sources */,
 				A5478543238869C500FB3306 /* SwitchCraft.xcdatamodeld in Sources */,
 				A547853B238869C500FB3306 /* SceneDelegate.swift in Sources */,
