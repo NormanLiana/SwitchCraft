@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,6 @@
 		A5478545238869CA00FB3306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5478544238869CA00FB3306 /* Assets.xcassets */; };
 		A5478548238869CA00FB3306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5478546238869CA00FB3306 /* LaunchScreen.storyboard */; };
 		A5478553238869CB00FB3306 /* SwitchCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478552238869CB00FB3306 /* SwitchCraftTests.swift */; };
-		A547855E23886C4F00FB3306 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A547855D23886C4F00FB3306 /* GoogleService-Info.plist */; };
 		EA709B416A9BF064B3A502CF /* Pods_SwitchCraftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC107D4FE259D3598ABECCAD /* Pods_SwitchCraftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +44,6 @@
 		A547854E238869CB00FB3306 /* SwitchCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchCraftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5478552238869CB00FB3306 /* SwitchCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCraftTests.swift; sourceTree = "<group>"; };
 		A5478554238869CB00FB3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A547855D23886C4F00FB3306 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9228CA0A0E9220682FC01C3 /* Pods_SwitchCraft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwitchCraft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraftTests.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraftTests/Pods-SwitchCraftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CABA59F42ABF6977639A6C2F /* Pods-SwitchCraft.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwitchCraft.debug.xcconfig"; path = "Target Support Files/Pods-SwitchCraft/Pods-SwitchCraft.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				CAB01297042AFAF82A7FBEB4 /* Pods-SwitchCraftTests.debug.xcconfig */,
 				562B7C1A1D7E98E5958E593A /* Pods-SwitchCraftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,7 +111,6 @@
 				A5478544238869CA00FB3306 /* Assets.xcassets */,
 				A5478546238869CA00FB3306 /* LaunchScreen.storyboard */,
 				A5478549238869CB00FB3306 /* Info.plist */,
-				A547855D23886C4F00FB3306 /* GoogleService-Info.plist */,
 				A5478541238869C500FB3306 /* SwitchCraft.xcdatamodeld */,
 			);
 			path = SwitchCraft;
@@ -223,7 +219,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5478548238869CA00FB3306 /* LaunchScreen.storyboard in Resources */,
-				A547855E23886C4F00FB3306 /* GoogleService-Info.plist in Resources */,
 				A5478545238869CA00FB3306 /* Assets.xcassets in Resources */,
 				A5478540238869C500FB3306 /* Main.storyboard in Resources */,
 			);
