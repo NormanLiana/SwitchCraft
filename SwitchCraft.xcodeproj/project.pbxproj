@@ -16,6 +16,7 @@
 		A5478553238869CB00FB3306 /* SwitchCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5478552238869CB00FB3306 /* SwitchCraftTests.swift */; };
 		A58FB4042397696D004D544C /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FB4032397696D004D544C /* AppUser.swift */; };
 		A58FB40623976D10004D544C /* FirebaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FB40523976D10004D544C /* FirebaseAuthService.swift */; };
+		A58FB40823977353004D544C /* FirestoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58FB40723977353004D544C /* FirestoreService.swift */; };
 		A591146F2395F622007ED13F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A591146E2395F622007ED13F /* GoogleService-Info.plist */; };
 		A591147A2396007C007ED13F /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59114792396007C007ED13F /* ProfileVC.swift */; };
 		A591147C23960513007ED13F /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A591147B23960513007ED13F /* LogInVC.swift */; };
@@ -50,6 +51,7 @@
 		A5478554238869CB00FB3306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58FB4032397696D004D544C /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
 		A58FB40523976D10004D544C /* FirebaseAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthService.swift; sourceTree = "<group>"; };
+		A58FB40723977353004D544C /* FirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreService.swift; sourceTree = "<group>"; };
 		A591146E2395F622007ED13F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Documents/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A59114792396007C007ED13F /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		A591147B23960513007ED13F /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				A58FB40523976D10004D544C /* FirebaseAuthService.swift */,
+				A58FB40723977353004D544C /* FirestoreService.swift */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				A58FB40623976D10004D544C /* FirebaseAuthService.swift in Sources */,
 				A591147A2396007C007ED13F /* ProfileVC.swift in Sources */,
 				A58FB4042397696D004D544C /* AppUser.swift in Sources */,
+				A58FB40823977353004D544C /* FirestoreService.swift in Sources */,
 				A59114812396066B007ED13F /* SwitchCraftTabBarVC.swift in Sources */,
 				A5478539238869C500FB3306 /* AppDelegate.swift in Sources */,
 				A5478543238869C500FB3306 /* SwitchCraft.xcdatamodeld in Sources */,
