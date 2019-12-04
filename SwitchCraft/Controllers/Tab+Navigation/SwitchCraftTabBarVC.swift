@@ -23,8 +23,9 @@ class SwitchCraftTabBarVC: UITabBarController {
     // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-        helpMeVC.tabBarItem = UITabBarItem(title: "Help Me!", image: UIImage(systemName: "rhombus.fill"), tag: 0)
-        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person.fill"), tag: 1)
+        helpMeVC.tabBarItem = UITabBarItem(title: "Help Me!", image: UIImage(systemName: "rhombus"), tag: 0)
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
+        self.viewControllers = [helpMeVC, profileVC]
     }
     
 
