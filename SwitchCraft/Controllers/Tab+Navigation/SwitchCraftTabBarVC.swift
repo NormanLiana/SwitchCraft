@@ -10,21 +10,23 @@ import UIKit
 
 class SwitchCraftTabBarVC: UITabBarController {
 
+    // MARK: - UI Objects
+    lazy var helpMeVC = UINavigationController(rootViewController: HelpMeVC())
+    
+    lazy var profileVC: UINavigationController = {
+        let profileVC = ProfileVC()
+        profileVC.user = AppUser(from: FirebaseAuthService.manager.currentUser!)
+        profileVC.isCurrentUser = true
+        return UINavigationController(rootViewController: profileVC)
+    }()
+    
+    // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        helpMeVC.tabBarItem = UITabBarItem(title: "Help Me!", image: UIImage(systemName: "rhombus.fill"), tag: 0)
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person.fill"), tag: 1)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
