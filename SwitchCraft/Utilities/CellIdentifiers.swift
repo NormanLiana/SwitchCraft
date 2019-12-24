@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+enum CellIdentifier: String {
+    case helpPostCell
+}
