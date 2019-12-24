@@ -14,8 +14,8 @@ class LogInVC: UIViewController {
     lazy var headerLabel: UILabel = {
         let label = UILabel()
         label.textColor = #colorLiteral(red: 0.6871127486, green: 0.2351325154, blue: 0.2614696622, alpha: 1)
-        label.font = UIFont(name: "Futura-CondensedExtraBold", size: 44)
-        label.text = "Pursuitstagram"
+        label.font = UIFont(name: "GillSans-UltraBold", size: 44)
+        label.text = "SwitchCraft"
         label.textAlignment = .center
         return label
     }()
