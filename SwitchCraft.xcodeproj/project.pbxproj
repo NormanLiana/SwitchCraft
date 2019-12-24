@@ -121,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				A59114732395F9FA007ED13F /* Controllers */,
+				A59B83C623B1BDAB0038E35C /* Views */,
 				A59114722395F9D6007ED13F /* Models */,
 				A59114712395F9A6007ED13F /* Utilities */,
 				A59114702395F87A007ED13F /* SupportingFiles */,
@@ -227,6 +228,13 @@
 				A59114802396066B007ED13F /* SwitchCraftTabBarVC.swift */,
 			);
 			path = "Tab+Navigation";
+			sourceTree = "<group>";
+		};
+		A59B83C623B1BDAB0038E35C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DF5F408657D055B3F578FA02 /* Frameworks */ = {
