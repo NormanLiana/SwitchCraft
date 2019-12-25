@@ -42,7 +42,7 @@ class HelpMeVC: UIViewController {
         helpCV.dataSource = self
     }
     
-    // MARK: - COnstraint Methods
+    // MARK: - Constraint Methods
     private func constrainCV() {
         helpCV.translatesAutoresizingMaskIntoConstraints = false
         
@@ -50,6 +50,7 @@ class HelpMeVC: UIViewController {
     }
 }
 
+// MARK: - Extensions
 extension HelpMeVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
