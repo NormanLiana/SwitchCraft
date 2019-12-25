@@ -10,21 +10,67 @@ import UIKit
 
 class HelpMeDVC: UIViewController {
 
+    // MARK: - UI Objects
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .brown
+        label.textColor = .black
+        label.textAlignment = .center
+        return label
+    }()
+    
+    lazy var locationLabel: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .brown
+        label.textColor = .black
+        label.textAlignment = .center
+        return label
+    }()
+    
+    lazy var scopeTextView: UITextView = {
+        let tv = UITextView()
+        tv.backgroundColor = .brown
+        tv.textColor = .black
+        return tv
+    }()
+    
+    lazy var timeCompletionLabel: UILabel = {
+        let label = UILabel()
+        label.backgroundColor = .brown
+        label.textColor = .black
+        label.textAlignment = .center
+        return label
+    }()
+    
+    lazy var acceptRequestButton: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("Accept Request", for: .normal)
+        return btn
+    }()
+    
+    lazy var directMessageButton: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("Direct Message", for: .normal)
+        return btn
+    }()
+    
+    // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Private Methods
+    private func addSubviews() {
+        view.addSubview(titleLabel)
+        view.addSubview(locationLabel)
+        view.addSubview(scopeTextView)
+        view.addSubview(timeCompletionLabel)
+        view.addSubview(acceptRequestButton)
+        view.addSubview(directMessageButton)
     }
-    */
-
+    
+    // MARK: - Constraint Methods
+    private func constrainTitleLabel() {
+        
+    }
 }
