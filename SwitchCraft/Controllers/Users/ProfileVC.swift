@@ -93,6 +93,7 @@ class ProfileVC: UIViewController {
         constrainAvailHRSLabel()
         constrainPendingHRSLabel()
         constrainDirectMsgBtn()
+        constrainRequestServiceBtn()
     }
     
     private func setUpVCView() {
@@ -139,7 +140,13 @@ class ProfileVC: UIViewController {
     private func constrainDirectMsgBtn() {
         directMessageButton.translatesAutoresizingMaskIntoConstraints = false
         
-        [directMessageButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 5), directMessageButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 5), directMessageButton.trailingAnchor.constraint(equalTo: view.centerXAnchor), directMessageButton.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.18)].forEach({$0.isActive = true})
+        [directMessageButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 5), directMessageButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -5), directMessageButton.trailingAnchor.constraint(equalTo: view.centerXAnchor), directMessageButton.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.18)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainRequestServiceBtn() {
+        serviceRequestButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        [serviceRequestButton.leadingAnchor.constraint(equalTo: view.centerXAnchor), serviceRequestButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -5), serviceRequestButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -5), serviceRequestButton.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.18)].forEach({$0.isActive = true})
     }
     
 }
