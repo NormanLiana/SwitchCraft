@@ -70,6 +70,7 @@ class ProfileVC: UIViewController {
         super.viewDidLoad()
         addSubviews()
         addConstraints()
+        setUpVCView()
     }
     
     // MARK: - Private Methods
@@ -91,6 +92,7 @@ class ProfileVC: UIViewController {
         constrainBioTxtView()
         constrainAvailHRSLabel()
         constrainPendingHRSLabel()
+        constrainDirectMsgBtn()
     }
     
     private func setUpVCView() {
@@ -132,6 +134,12 @@ class ProfileVC: UIViewController {
         pendingHoursLabel.translatesAutoresizingMaskIntoConstraints = false
         
         [pendingHoursLabel.topAnchor.constraint(equalTo: bioTextView.bottomAnchor, constant: 10), pendingHoursLabel.leadingAnchor.constraint(equalTo: bioTextView.centerXAnchor), pendingHoursLabel.trailingAnchor.constraint(equalTo: bioTextView.trailingAnchor, constant: -10), pendingHoursLabel.heightAnchor.constraint(equalTo: bioTextView.heightAnchor, multiplier: 0.25)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainDirectMsgBtn() {
+        directMessageButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        [directMessageButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 5), directMessageButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: 5), directMessageButton.trailingAnchor.constraint(equalTo: view.centerXAnchor), directMessageButton.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.18)].forEach({$0.isActive = true})
     }
     
 }
