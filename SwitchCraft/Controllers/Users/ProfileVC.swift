@@ -90,6 +90,7 @@ class ProfileVC: UIViewController {
         constrainLocationLabel()
         constrainBioTxtView()
         constrainAvailHRSLabel()
+        constrainPendingHRSLabel()
     }
     
     private func setUpVCView() {
@@ -125,6 +126,12 @@ class ProfileVC: UIViewController {
         availableHoursLabel.translatesAutoresizingMaskIntoConstraints = false
         
         [availableHoursLabel.topAnchor.constraint(equalTo: bioTextView.bottomAnchor, constant: 10), availableHoursLabel.leadingAnchor.constraint(equalTo: bioTextView.leadingAnchor, constant: 10), availableHoursLabel.trailingAnchor.constraint(equalTo: bioTextView.centerXAnchor), availableHoursLabel.heightAnchor.constraint(equalTo: bioTextView.heightAnchor, multiplier: 0.25)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainPendingHRSLabel() {
+        pendingHoursLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        [pendingHoursLabel.topAnchor.constraint(equalTo: bioTextView.bottomAnchor, constant: 10), pendingHoursLabel.leadingAnchor.constraint(equalTo: bioTextView.centerXAnchor), pendingHoursLabel.trailingAnchor.constraint(equalTo: bioTextView.trailingAnchor, constant: -10), pendingHoursLabel.heightAnchor.constraint(equalTo: bioTextView.heightAnchor, multiplier: 0.25)].forEach({$0.isActive = true})
     }
     
 }
