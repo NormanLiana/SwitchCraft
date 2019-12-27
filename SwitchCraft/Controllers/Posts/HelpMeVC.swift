@@ -73,4 +73,9 @@ extension HelpMeVC: UICollectionViewDelegateFlowLayout {
     }
 }
 
-extension HelpMeVC: UICollectionViewDelegate {}
+extension HelpMeVC: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let helpDVC = HelpMeDVC()
+        navigationController?.pushViewController(helpDVC, animated: true)
+    }
+}
