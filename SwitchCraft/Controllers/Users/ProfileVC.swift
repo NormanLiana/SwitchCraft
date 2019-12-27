@@ -87,6 +87,9 @@ class ProfileVC: UIViewController {
     private func addConstraints() {
         constrainProfileIMG()
         constrainNameLabel()
+        constrainLocationLabel()
+        constrainBioTxtView()
+        constrainAvailHRSLabel()
     }
     
     private func setUpVCView() {
@@ -104,6 +107,24 @@ class ProfileVC: UIViewController {
         nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         [nameLabel.bottomAnchor.constraint(equalTo: profileImage.centerYAnchor), nameLabel.leadingAnchor.constraint(equalTo: profileImage.trailingAnchor, constant: 15), nameLabel.widthAnchor.constraint(equalTo: profileImage.widthAnchor, multiplier: 1.4), nameLabel.heightAnchor.constraint(equalTo: profileImage.heightAnchor, multiplier: 0.3)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainLocationLabel() {
+        locationLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        [locationLabel.topAnchor.constraint(equalTo: profileImage.centerYAnchor), locationLabel.leadingAnchor.constraint(equalTo: profileImage.trailingAnchor, constant: 15), locationLabel.widthAnchor.constraint(equalTo: profileImage.widthAnchor, multiplier: 1.4), locationLabel.heightAnchor.constraint(equalTo: profileImage.heightAnchor, multiplier: 0.3)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainBioTxtView() {
+        bioTextView.translatesAutoresizingMaskIntoConstraints = false
+        
+        [bioTextView.topAnchor.constraint(equalTo: profileImage.bottomAnchor, constant: 25), bioTextView.leadingAnchor.constraint(equalTo: profileImage.leadingAnchor), bioTextView.trailingAnchor.constraint(equalTo: nameLabel.trailingAnchor), bioTextView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.25)].forEach({$0.isActive = true})
+    }
+    
+    private func constrainAvailHRSLabel() {
+        availableHoursLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        [availableHoursLabel.topAnchor.constraint(equalTo: bioTextView.bottomAnchor, constant: 10), availableHoursLabel.leadingAnchor.constraint(equalTo: bioTextView.leadingAnchor, constant: 10), availableHoursLabel.trailingAnchor.constraint(equalTo: bioTextView.centerXAnchor), availableHoursLabel.heightAnchor.constraint(equalTo: bioTextView.heightAnchor, multiplier: 0.25)].forEach({$0.isActive = true})
     }
     
 }
