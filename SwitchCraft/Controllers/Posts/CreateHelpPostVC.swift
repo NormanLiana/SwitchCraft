@@ -45,4 +45,12 @@ class CreateHelpPostVC: UIViewController {
         super.viewDidLoad()
     }
     
+    // MARK: - Private Methods
+    private func addSubviews() {
+        view.addSubview(titleTF)
+        view.addSubview(locationTF)
+        view.addSubview(scopeTF)
+        view.addSubview(sliderLabel)
+        view.addSubview(timeCompletionSlider)
+    }
 }
