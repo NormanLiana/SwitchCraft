@@ -10,21 +10,39 @@ import UIKit
 
 class CreateHelpPostVC: UIViewController {
 
+    // MARK: - UI Objects
+    lazy var titleTF: UITextField = {
+        let tv = UITextField()
+        tv.placeholder = "Enter title"
+        return tv
+    }()
+    
+    lazy var locationTF: UITextField = {
+        let tv = UITextField()
+        tv.placeholder = "Enter location"
+        return tv
+    }()
+    
+    lazy var scopeTF: UITextField = {
+        let tv = UITextField()
+        tv.placeholder = "Enter description or scope of work"
+        return tv
+    }()
+    
+    lazy var sliderLabel: UILabel = {
+        let label = UILabel()
+        label.text = "How long do you think this task will take?"
+        return label
+    }()
+    
+    lazy var timeCompletionSlider: UISlider = {
+        let slider = UISlider()
+        return slider
+    }()
+    
+    // MARK: - Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
