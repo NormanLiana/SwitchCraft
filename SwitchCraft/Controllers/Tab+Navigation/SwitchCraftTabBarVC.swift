@@ -13,6 +13,8 @@ class SwitchCraftTabBarVC: UITabBarController {
     // MARK: - UI Objects
     lazy var helpMeVC = UINavigationController(rootViewController: HelpMeVC())
     
+    lazy var createPostVC = UINavigationController(rootViewController: CreateHelpPostVC())
+    
     lazy var profileVC: UINavigationController = {
         let profileVC = ProfileVC()
         profileVC.user = AppUser(from: FirebaseAuthService.manager.currentUser!)
@@ -24,8 +26,10 @@ class SwitchCraftTabBarVC: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         helpMeVC.tabBarItem = UITabBarItem(title: "Help Me!", image: UIImage(systemName: "rhombus"), tag: 0)
-        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 1)
-        self.viewControllers = [helpMeVC, profileVC]
+        createPostVC.tabBarItem = UITabBarItem(title: "Post", image: UIImage(systemName: "plus.square"), tag: 1)
+        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 2)
+        
+        self.viewControllers = [helpMeVC, createPostVC, profileVC]
     }
     
 
